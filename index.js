@@ -1,7 +1,7 @@
 
 var randomNumber1 = (Math.floor(Math.random()*6-1+1))+1;
 
-var diceImageFileName = `./images/dice${randomNumber1}.png`;
+var diceImageFileName = `./Dicee Challenge - Starting Files/images/dice${randomNumber1}.png`;
 var currentImage =document.getElementsByClassName("img1")[0];
 console.log(currentImage)
 
@@ -11,7 +11,7 @@ currentImage.src  = diceImageFileName;
 var randomNumber2 = (Math.floor(Math.random()*6-1+1))+1;
 
 
-var diceImageFileName2 = `./images/dice${randomNumber2}.png`;
+var diceImageFileName2 = `./Dicee Challenge - Starting Files/images/dice${randomNumber2}.png`;
 var currentImageright = document.getElementsByClassName("img2")[0];
 
 currentImageright.src = diceImageFileName2;
